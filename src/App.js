@@ -7,7 +7,7 @@ function App() {
   const isLogged = useSelector(state => state.isLogged);
   const dispatch = useDispatch();
  
-  return (
+  return (       
     <div className="App">
       <h1>Hello Redux</h1>
       <h1>Counter {counter}</h1>
