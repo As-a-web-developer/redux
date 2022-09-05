@@ -1,7 +1,7 @@
 export const increment = nr => {
     return {
         type: 'INCREMENT',
-        payload: nr
+        payload: nr  //the nr is the value passed in the method call
     };
 };
 
